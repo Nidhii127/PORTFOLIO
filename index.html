@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-body text-white font-poppins pb-12">
+    
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-10 w-full">
+            <div class="md:text-xl font-bold hover:cursor-pointer hover:text-sky-300">Nidhi  Singh  Thakur</div>
+            <div class="hidden md:flex space-x-12 items-center" id="menu">
+                <a href="#home" id="hLink" class="hover:text-gray-400">Home</a>
+                <a href="#projects" id="hLink" class="hover:text-gray-400">Project</a>
+                <a href="#resume" id="hLink" class="hover:text-gray-400">Resume</a>
+                <a href="#footer" id="hLink" class="hover:text-gray-400"><button class="px-6 py-2 bg-theme font-bold">    Contact Me</button></a>
+            </div>
+            <div class=" md:hidden" id="hamburger">
+				<a class="text-5xl p-3"   href="#" >&#8801;</a>
+			</div>
+        </div>
+    </header>
+
+
+    <div class="container mt-2 flex justify-between items-center mx-auto px-8 md:px-10 lg:px-18 w-full">
+        <div class="flex flex-wrap md:flex-nowrap">
+
+            <div class="flex flex-wrap  justify-center md:justify-start max-w-xl mt-0 md:my-36">
+                <h1 class="text-xs md:font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left">Hello,<br>I'm Nidhi,</h1>
+				<h3 class="mt-5">A 2nd-year CSE student at NIT Bhopal and a beginner web developer. Currently learning and building skills in web development. Explore my projects and see what I’m working on as I grow and learn!</h3>
+                <div class="w-full flex justify-center md:justify-start">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3">
+                        <div>
+                            <a href="#">&#128065;</a>
+							
+                        </div>
+                        <span ><a href="#projects">Projects</a></span>
+                    </button>
+                </div>
+            </div>
+            <img src="img/Nidhi Singh Thakur.webp" class="w-90/100 h-1/100 md:w-52/100  md:absolute h-screen md:mt-2 right-0 -z-1">
+        </div>
+    </div>
+
+		<!-- My Projects-->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full" id="projects">
+			<section class="w-full">
+				<h2 id="work" class="secondary-title">My Projects</h2>
+				<p class="section-paragraph">Take a look at my prpjects.</p>
+
+				<div class="flex flex-row space-x-3 flex-wrap">
+
+					<div class="flex flex-col space-y-4 items-center text-slate-600"><a href="https://stone-paper-scissor-theta.vercel.app/"><img src="https://th.bing.com/th/id/OIP.i0Hl5eRqh8dwfTepx65HbQHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="w-full bg-nav h-36 lg:h-72 object-cover"></a> <p>Stone Paper Scissor</p></div>
+					<div class="flex flex-col space-y-4 items-center"><a href="https://www.ecellnitb.in"><img src="https://th.bing.com/th?q=Ecell+Manit+Bhopal+Logo&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.3&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247" class="w-full bg-nav h-36 lg:h-72 object-cover"></a><p>E-Cell NITB</p></div>
+					<div class="flex flex-col space-y-4 items-center"><img src="https://images.unsplash.com/photo-1586717791821-3f44a563fa4c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="w-25/100 hidden md:block bg-nav h-36 lg:h-72 object-cover"><p>Study Resouces </p></div>
+				</div>
+			</section>
+		</div>
+
+
+
+
+		<!-- Resume -->
+		<div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full" id="resume">
+			<section class="w-full">
+				<h2 id="clients" class="secondary-title">Resume</h2>
+				<div class="space-y-12 my-16">
+					<div class="w-full border border-nav p-16 lg:px-24 lg:py-15 lg:space-x-26 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold pb-8">SKILLS</h3>
+							<p class="text-secondary">❖ Demonstrated Adaptability in Various Environments  </p>
+							<p class="text-secondary">❖ C Programming (beginner level)  </p>
+							<p class="text-secondary">❖ CSS </p>  
+							<p class="text-secondary">❖ TailWind CSS</p>
+							<p class="text-secondary">❖ HTML</p>
+							<p class="text-secondary">❖ JavaScript</p>
+							</p>
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-24 lg:py-15 lg:space-x-26 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold pb-8">POSITION OF RESPONSIBILITY   </h3>
+							<p class="text-secondary"><span>❖ Web developer at E-Cell (Enterpreneurship Cell) , MANIT 
+								 </p>
+								<p class="text-secondary">                             
+									❖ Web developer at Tooryanaad, MANIT 
+								</p>
+							
+						</div>
+
+					</div>
+					<div class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center lg:justify-start flex-wrap lg:flex-nowrap">
+						
+						<div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+							<h3 class="text-white text-3xl font-semibold pb-8">EDUCATION  </h3>
+							<p class="text-secondary"> ❖ Maulana Azad National institute of technology, Bhopal                                    
+								Bachelor of Computer Science  </p>
+							<p class="text-secondary"> ❖ XII (CBSE) | Kendriya Vidyalaya GCF No.1 Jabalpur       </p>
+
+							
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+		</div>
+
+
+		<!--footer-->
+		<div class="h-1/2  md:h-25/100 flex flex-col p-5"  id="footer">
+			<div class="w-80/100 border-s-2 h-5"></div>
+			<div class="flex  items-center space-y-7  md:flex flex-row justify-around">
+				<div class="flex flex-col justify-center items-center">
+					<p class="text-white text-bold">Phone</p>
+					<a href="#" class="text-gray-400">9479606424</a>
+				</div>
+				<div class="flex flex-col justify-center items-center">
+					<p class="text-white text-bold">Email</p>
+					<a href="#" class="text-gray-400">nidhisingh.thakur@gmail.com</a>
+				</div>
+				<div class="flex flex-col justify-center items-center">
+					<p class="text-white text-bold">Follow me</p>
+					<p class="text-gray-400"><a href="https://fontawesome.com/v4/icon/instagram"><img src="https://fontawesome.com/v4/icon/instagram" alt=""></a> <a href="https://fontawesome.com/v4/icon/twitter"><img src="https://fontawesome.com/v4/icon/twitter" alt=""></a></p>
+				</div>
+			</div>
+		</div>
+
+        <script src="main.js"></script>
+
+</body>
+</html>
